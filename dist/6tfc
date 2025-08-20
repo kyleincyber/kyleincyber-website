@@ -1,9 +1,0 @@
-<p>To ensure the security assessment aligns with your expectations, could you please confirm the following:</p>
-
-<ul>
-  <li>Are you requesting a security review of the keyboard hardware itself, its firmware, or both?</li>
-  <li>Do you want us to test how key mappings or reprogramming is handled and whether it can be abused (e.g. to inject malicious input)?</li>
-  <li>Should the assessment include the ElfKey software used to configure or interact with the device?</li>
-  <li>If so, do you have a preferred installation method or version we should test?</li>
-  <li>Is wireless communication (e.g. Bluetooth pairing, sniffing, replay) in scope? If yes, should we assume a standard threat model (e.g. attacker within range, device previously paired)?</li>
-</ul>
