@@ -1,74 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Welcome To My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kyle Woodward | Content Developer at SudoCyber</title>
+  <meta name="description" content="I am Kyle Woodward, a content developer at SudoCyber. I design hands on security training that mirrors real adversary behaviour and vulnerability led scenarios.">
+  <meta property="og:title" content="Kyle Woodward | Content Developer at SudoCyber">
+  <meta property="og:description" content="I design hands on labs that mirror threat actor playbooks and reproduce widely reported software flaws in a safe environment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kyleincyber.com/">
+  <meta property="og:image" content="img/portrait.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kyle Woodward | Content Developer at SudoCyber">
+  <meta name="twitter:description" content="I design hands on labs that mirror threat actor playbooks and reproduce widely reported software flaws in a safe environment.">
+  <meta name="twitter:image" content="img/portrait.jpg">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kyle Woodward",
+    "jobTitle": "Content Developer",
+    "worksFor": { "@type": "Organization", "name": "SudoCyber" },
+    "description": "I design hands on security training that mirrors real adversary behaviour and vulnerability led scenarios.",
+    "url": "https://kyleincyber.com/",
+    "sameAs": ["https://www.linkedin.com/in/kyleincyber/"]
+  }
+  </script>
 </head>
-<body id="bg-img">
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait">
-
-                </div>
-            </div>
-            <ul class="menu-nav">
-                <li class="nav-item current">
-                    <a href="index.html" class="nav-link">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">
-                        About Me
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="projects.html" class="nav-link">
-                        My Projects
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">
-                        How To Reach Me
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main id="home">
-        <h1 class="lg-heading">
-            Kyle <Span class="text-secondary">Woodward</Span>
-        </h1>
-        <h2 class="sm-heading">
-            Offensive Security Consultant & MVP Cluster Co-Founder 
-        </h2>
-        <div class="icons">
-            <a href="https://twitter.com/kyleincyber">
-                <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/kyleincyber/">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://www.youtube.com/@kyleincyber">
-                <i class="fab fa-youtube fa-2x"></i>
-            </a>
-            <a href="https://github.com/kyleincyber/">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-        </div>
-    </main>
-    <script src="js/main.js"></script>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<aside class="sidebar">
+  <div class="logo">KW</div>
+  <p class="name">Kyle Woodward</p>
+  <p class="role">Content Developer</p>
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="https://hackyour.tech/" target="_blank" rel="noopener">Writing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="theme-toggle" aria-label="Toggle theme">Toggle theme</button>
+</aside>
+<header class="topbar">
+  <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
+  <input type="search" placeholder="Search" aria-label="Search">
+  <button class="hire-btn" type="button">Hire me</button>
+</header>
+<main id="main">
+  <section id="overview" class="card hero">
+    <h1>Content Developer at SudoCyber</h1>
+    <p>I design hands on security training that mirrors real adversary behaviour and vulnerability led scenarios.</p>
+    <div class="badges">
+      <span>Lab design</span>
+      <span>Scripting</span>
+      <span>Automation</span>
+      <span>Red team simulations</span>
+    </div>
+    <p>
+      <a href="#projects">See projects</a> |
+      <a href="#experience">View experience</a>
+    </p>
+  </section>
+  <section id="experience" class="card">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>SudoCyber - Content Developer</h3>
+        <p><!-- TODO: verify start date -->Month YYYY - Present</p>
+        <p>I design and ship labs that turn widely reported software flaws into safe, reproducible exercises.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>MVP Cluster - Co-founder</h3>
+        <p><!-- TODO: verify dates -->Month YYYY - Month YYYY</p>
+        <p>I co-founded MVP Cluster to support early stage projects.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Foresite - Security Analyst</h3>
+        <p><!-- TODO: verify dates -->Month YYYY - Month YYYY</p>
+        <p>I maintained detection tooling and helped improve incident response processes.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Wolfberry Cyber - Security Consultant</h3>
+        <p><!-- TODO: verify dates -->Month YYYY - Month YYYY</p>
+        <p>I assessed client networks and recommended practical improvements.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Capgemini - Analyst</h3>
+        <p><!-- TODO: verify dates -->Month YYYY - Month YYYY</p>
+        <p>I supported enterprise security projects.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="badges">
+      <span>Threat actor playbook simulations</span>
+      <span>Adversary style operations</span>
+      <span>Vulnerability led training</span>
+      <span>Exploit reproduction</span>
+    </div>
+  </section>
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <!-- TODO: Add project cards -->
+  </section>
+  <section id="writing" class="card">
+    <h2>Writing</h2>
+    <p>I post technical notes at <a href="https://hackyour.tech/" target="_blank" rel="noopener">hackyour.tech</a>.</p>
+  </section>
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <form class="contact-form" aria-label="Contact form">
+      <p>This demo form does not send messages.</p>
+      <label for="name">Name</label>
+      <input id="name" type="text" required>
+      <label for="email">Email</label>
+      <input id="email" type="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Or email me at <a href="mailto:contact@kyleincyber.com">contact@kyleincyber.com</a>.</p>
+  </section>
+</main>
+<footer>&copy; 2024 Kyle Woodward</footer>
+<script src="assets/js/app.js"></script>
 </body>
-<footer id="main-footer">
-    Copyright &copy; 2024
-</footer>
 </html>
